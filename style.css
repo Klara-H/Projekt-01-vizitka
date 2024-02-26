@@ -1,3 +1,10 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html  {
+    box-sizing: border-box; 
+}
+*, ::after, ::before { 
+    box-sizing: inherit; 
+}
+h1 {
+    font-size: 30px;
+}
