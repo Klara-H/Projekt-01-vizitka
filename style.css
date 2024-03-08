@@ -2,9 +2,123 @@
 html  {
     box-sizing: border-box; 
 }
-*, ::after, ::before { 
+*, 
+::after, 
+::before { 
     box-sizing: inherit; 
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
 h1 {
     font-size: 30px;
+    margin-top: 30px;
+    font-family: "Merienda", cursive;
+}
+.ja {
+    float: right;
+    margin: 0 100px 0 0;
+    border-radius: 150px;
+    position: relative;
+}
+
+.dovolena {
+    position:relative;
+    width: 350px;
+    height: 400px;
+    margin: 50px 30px 50px 80px;
+    border-radius: 50px 3px 3px 50px;
+}
+
+.sklenik {
+    position:relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 3px 50px 50px 3px;
+    margin: 50px 30px 50px 0;
+}
+
+.doggo1 {
+    position:relative;
+    width: 350px;
+    height: 400px;
+    margin: 50px 30px 50px 80px;
+    border-radius: 50px 3px 3px 50px;
+}
+.doggo2{
+    position:relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 3px 50px 50px 3px;
+    margin: 50px 30px 50px 0;
+}
+.topnav {
+  background-color:gray;
+  list-style: none;
+  margin-top: 50px;
+  border: solid darkgray 1px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+.topnav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #303030;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+section {
+    margin: 50px 0 50px 0;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    padding: 30px;
+}
+
+#omne {
+    border-bottom: 1px solid lightgray;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#moje-zaliby {
+        border-bottom: 1px solid lightgray;
+        overflow: hidden;
+        padding-bottom: 50px;
+    }
+footer a {
+    text-decoration: none;
+    color: #303030;
+}
+
+footer a:hover{
+    color: blue;
+}
+.udaje {
+    color:lightgray;
+}
+h2 {
+    color: #303030;
+    font-family: "Merienda", cursive;
+}
+.galerie {
+    background-color: #edebeb;
+    width: 850px;
+    border-radius: 80px;
+}
+header {
+    text-align: center;
+    padding: 30px;
 }
